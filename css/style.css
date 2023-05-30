@@ -52,3 +52,56 @@ ul{
      font-size: 1rem;
      padding:0% .5%;
 }
+
+.navbar a:hover{
+    color: var(--main-color);
+    transition: .4s;
+}
+
+
+#menu{
+    font-size: 2rem;
+    cursor:pointer;
+    display:none;
+}
+
+section{
+    padding: 2% 5%;
+}
+.Home{
+    margin-top: 2%;
+    width: 90%;
+    display: grid;
+    height: 80vh;
+    color: #ffffff;
+    
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+}
+.Home h2{
+    font-weight:700;
+    font-size:1.6rem;
+}
+.site{
+    color:var(--main-color);
+}
+.Home a{
+    text-decoration: none;
+   
+}
+.btn{
+    display:inline-block;
+    margin-top:3%;
+    
+    padding: 1%;
+    background-color:var(--main-color);
+    color:white;
+  
+    border-radius: 5px;
+}
+
+.btn:hover{
+
+    background-color: #fd6a08;
+    transition: .5s;
+}
