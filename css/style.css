@@ -144,3 +144,19 @@ section{
 
     text-align: center;
 }
+
+
+.service-container{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin-top: auto;
+  color:white;
+   
+}
+
+.service-container img{
+    width:150px;
+    margin: auto;
+    padding: auto;
+}
