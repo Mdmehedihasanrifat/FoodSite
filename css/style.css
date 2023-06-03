@@ -238,7 +238,9 @@ section{
         text-align: center;
         background-color: rgb(11, 13, 24);
     }
-    
+    .navbar.active {
+        top: 0;
+      }
     .navbar a{
         padding: 1.5rem;
         display: block;
